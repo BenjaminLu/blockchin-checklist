@@ -1,6 +1,6 @@
 # Blockchain checklist
 
-## 公私鑰演算法
+## 公私鑰演算法
 
 SECP256K1或其他橢圓曲線或公私鑰系統
 
@@ -29,7 +29,7 @@ apt install? wget再解壓縮?
 
 設定創世區塊與區塊鏈指令
 
-## genesis block
+## genesis block
 
 創世區塊設定細節
 私有鏈設定預設有錢地址方式
@@ -64,9 +64,9 @@ VM snapshot?
 
 # 開發社群相關軟體及文件
 
-官方文件，社群文件連結
+官方文件，社群文件連結
 
-## blockchain explorer
+## blockchain explorer
 
 主鏈與測試鏈的explorer
 
@@ -92,17 +92,17 @@ VM snapshot?
 
 若需要關心該鏈上的代幣資產該如何偵測?
 
-## fee 出入金手續費拿捏
+## fee 出入金手續費拿捏
 
 如何在交易速度與成本間拿捏?
 是否有額外成本，Omni layer的reference amount, 0.00000546 BTC
 
-## 個人帳戶連續送交易的問題，nonce的抓取(含mempool)與設定
+## 個人帳戶連續送交易的問題，nonce的抓取(含mempool)與設定
 
 如要啟用備用節點，如何處理個nonce與重發問題
 (account based區塊鏈常見)
 
-## Key Generation - 中心化交易所替用戶創地址
+## Key Generation - 中心化交易所替用戶創地址
 
 創建地址等待用戶申請，需要如何加密存放
 
@@ -123,14 +123,14 @@ VM snapshot?
 有最終性的區塊中交易資訊送方、收方資產種類與餘額變化
 
 ## 查詢餘額 get balance
-
+
 確認交易所水位
 
 ## 用戶提幣出金 - 離線簽名
 
 離線簽章的SDK或是演算法資訊
 
-## token to coin migraiton 主網切換問題
+## token to coin migraiton 主網切換問題
 
 ERC20轉換到主鏈的流程與作法
 
@@ -138,6 +138,6 @@ ERC20轉換到主鏈的流程與作法
 
 節點不定時程式異常的錯誤與經驗學習
 
-## references
+## references
 
 上述所有資料的索引
